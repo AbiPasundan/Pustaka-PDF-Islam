@@ -9,12 +9,14 @@ body{
 
 .card {
     width: 45%;
+    margin-right: 15px;
     background-color: var(--secondary);
 }
 main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 600px) {
